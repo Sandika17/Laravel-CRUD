@@ -30,7 +30,23 @@ Sebelum menjalankan proyek ini, pastikan kamu sudah menginstal:
 
 1. Clone repositori ini:
    git clone https://github.com/Sandika17/Laravel-CRUD.git
-   cd Laravel-CRUD
+2. cd Laravel-CRUD
+3. Instal dependensi PHP:
+   composer install
+4. Salin file konfigurasi environment:
+   cp .env.example .env
+5. Generate security key aplikasi:
+   php artisan key:generate
+6. Sesuaikan konfigurasi database di file .env, lalu jalankan migrasi:
+   php artisan migrate
+7. Hubungkan folder storage agar gambar bisa diakses:
+   php artisan storage:link
+8. Instal dan kompilasi aset frontend:
+   npm install && npm run dev
+9. Jalankan server lokal:
+   php artisan serve
+10. Buka browser dan akses:
+    http://localhost:8000
 
 ## About Laravel
 
