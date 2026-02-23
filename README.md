@@ -7,6 +7,31 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# CRUD Produk Laravel 10
+
+Aplikasi pengelolaan data produk sederhana yang dibuat menggunakan Laravel 10. Proyek ini mencakup fitur manajemen stok, harga (dengan casting decimal), dan unggah gambar produk.
+
+## Fitur Utama
+
+- **CRUD Operasi**: Create, Read, Update, Delete data produk.
+- **Image Upload**: Mendukung unggah gambar produk ke storage public.
+- **Pagination**: Menampilkan data dengan sistem halaman yang rapi.
+
+## Prasyarat
+
+Sebelum menjalankan proyek ini, pastikan kamu sudah menginstal:
+
+- PHP >= 8.1
+- Composer
+- MySQL atau MariaDB
+- Node.js & NPM
+
+## Cara Instalasi
+
+1. Clone repositori ini:
+   git clone https://github.com/Sandika17/Laravel-CRUD.git
+   cd Laravel-CRUD
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
